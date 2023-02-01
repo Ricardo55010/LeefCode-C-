@@ -1,0 +1,11 @@
+public class Solution {
+    public int Fib(int n) {
+        List <int> Fib = new List<int>();
+        Fib.Add(0);
+        Fib.Add(1);
+        for(int i=2;i<=n;i++){
+            Fib.Add(Fib[i-2]+Fib[i-1]);
+        }
+        return Fib[n];
+    }
+}

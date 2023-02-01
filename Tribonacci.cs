@@ -1,7 +1,6 @@
 public class Solution {
     public int Tribonacci(int n) {
         List <int> TribonacciSeries = new List <int>();
-        int tribonacciTotal=1;
         TribonacciSeries.Add(0);
         TribonacciSeries.Add(1);
         TribonacciSeries.Add(1);
